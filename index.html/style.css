@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(../images/backimg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    height: 62px;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 30px;
+    gap: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(72, 68, 68);
+}
+
+.btn1 {
+    background-color: rgb(233, 20, 20);
+    padding: 7px 25px;
+    color: white;
+    border-radius: 4px;
+    font-size: medium;
+    margin: 8px;
+}
+
+.btn0 {
+    background-color: rgba(23, 23, 23, 0.021);
+    font-size: medium;
+    padding: 7px 30px;
+    color: white;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.457);
+}
+
+.btns {
+    display: flex;
+    gap: 0px;
+    padding: 24px 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2 {
+    background-color: rgb(233, 20, 20);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 8px;
+}
+
+.ipt {
+    background-color: rgba(23, 23, 23, 0.021);
+    font-size: medium;
+    padding: 14px 50px;
+    color: white;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.457);
+}
+
+.section1, .section3 ,.section4{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 76vw;
+}
+.sectext {
+    justify-content: center;
+    padding: 183px 14px;
+}
+
+.text1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 13px 18px;
+
+}
+
+.text2 {
+    font-size: 25px;
+    padding: 2px 24px;
+    font-family: system-ui;
+}
+.secimg {
+    position: relative;
+}
+.secimg>img {
+
+    position: relative;
+    top: 50px;
+    width: 555px;
+    z-index: 10;
+}
+
+.secimg>video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+}
+.text11 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 13px 18px;
+}
+
+.text21 {
+    font-size: 25px;
+    padding: 2px 24px;
+    font-family: system-ui;
+}
+.secimg1{
+    width: 37vw;
+
+}
+.text13 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 13px 18px;
+}
+.secimg .video2{
+    position: absolute;
+    top: 85px;
+    right: 110px;
+    width: 340px;
+}
+.text14 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding:13px 18px;
+}
+.text24 {
+    font-size: 25px;
+    padding:  2px 17px;
+    font-family: system-ui;
+}
+.faq{
+    top:50px;
+    position: relative;
+}
+h1{
+    color: white;
+    padding:8px  69px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.faqbox:hover{
+    background-color:rgb(75, 75, 75);
+    transition: all ,.5s;
+}
+.faqbox{
+    color: white;
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    margin: 8px auto;
+    max-width: 150vh;
+    padding: 25px ;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqbox>span{
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.faqbox>svg{
+filter: invert(1);
+}
+.lastline{
+    color: white;
+    padding: 5px 30px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+
+}
+.footeritem>a{
+    color: white;
+    font: status-bar;
+    font-size: 16px;
+
+}
+.footeritem{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}
+.footertext{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding: 37px;
+    font: status-bar;
+    font-size: 16px;
+
+}
+@media  screen and (max-width:1300px) {
+    
+    .section1, .section3 ,.section4{
+      flex-wrap: wrap;
+    }
+    .secimg {
+        width: 45vw;
+    }
+    nav{
+        max-width: 90vw;
+    }
+}
